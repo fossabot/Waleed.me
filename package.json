@@ -1,0 +1,15 @@
+{
+  "name": "waleedme2",
+  "version": "1.0.0",
+  "description": "Waleed personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Waleed Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/router": "^5.1.3",
+    "angularjs": "0.0.1"
+  }
+}
