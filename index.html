@@ -2,17 +2,31 @@
 <html lang="en" ng-app="app">
 <head>
     <meta charset="UTF-8">
-    <title>Waleed Ahmed</title>
+    <title>Waleed Ahmed Development</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="text/javascript" src="node_modules/angular/angular.js"></script>
     <script type="text/javascript" src="node_modules/angular-route/angular-route.js"></script>
     <script type="text/javascript" src="app/app.js"></script>
 </head>
 <body>
-<a href="#!/">Home</a>
-<a href="#!/contact">Contact</a>
-<a href="#!/resume">Resume</a>
+<div id="body">
+    <div id="navigation">
+        <div id="navigationLeft"><a href="index.php"><img src="img/kimarnett.png" id="logo"/></a></div>
+        <div id="navigationRight">
+            <ul>
+                <li><a href="#!">Home</a></li>
+                <li><a href="#!experience">Experience</a></li>
+                <li><a href="#!resume">Resumé</a></li>
+                <li><a target="_blank" href="http://www.twitter.com/waleed3045">@waleed3045</a></li>
+                <li><a href="#!contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div ng-view id="centerPage"></div>
 
-<div ng-view></div>
+</div>
+
+
 
 </body>
 </html>
