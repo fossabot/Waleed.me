@@ -1,0 +1,20 @@
+{
+  "name": "waleedme2",
+  "description": "Waleed personal Website",
+  "main": "app.js",
+  "authors": [
+    "Waleed Ahmed"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/waleedahmed3045/Waleed.me",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ng-rollbar": "^2.3.8"
+  }
+}

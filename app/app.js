@@ -1,5 +1,17 @@
 
-let app = angular.module("app", ['ngRoute']);
+let app = angular.module("app", ['ngRoute','tandibar/ng-rollbar']);
+
+//Rollbar config
+
+myApp.config(['RollbarProvider', function(RollbarProvider) {
+    RollbarProvider.init({
+        accessToken: "3503879afb2c41188a02c1feaa198132",
+        captureUncaught: true,
+        payload: {
+            environment: '<specify-your-env>'
+        }
+    });
+}]);
 
 
 app.config(function ($routeProvider) {
