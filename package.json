@@ -10,7 +10,6 @@
   "author": "Waleed Ahmed",
   "license": "ISC",
   "dependencies": {
-    "airbrake-js": "^1.0.1",
     "angular": "^1.6.8",
     "angular-route": "^1.6.8",
     "nodemon": "^1.14.8"
