@@ -5,24 +5,6 @@ import uiRouter from '@uirouter/angularjs';
 let app = angular.module('app', [uiRouter]);
 
 
-
-// app.config(function ($routeProvider) {
-//    $routeProvider
-//
-//        .when("/",{
-//            templateUrl : "templates/home.html"
-//        })
-//
-//        .when("/resume",{
-//            templateUrl: "templates/resume.html"
-//        })
-//
-//        .when("/contact",{
-//            templateUrl: "templates/contact.html"
-//        });
-//
-// });
-
 app.config(function ($stateProvider) {
 
     let Default = {

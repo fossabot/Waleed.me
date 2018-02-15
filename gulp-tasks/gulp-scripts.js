@@ -17,25 +17,6 @@ let b = browserify({
     presets: ["es2015"]
 }));
 
-// gulp.task('scripts', function () {
-//     gulp.src('scripts/**/*.js')
-//     // This will output the non-minified version
-//
-//         browserify({
-//         entries:'scripts/app.js',
-//         debug: true
-//     })
-//         .bundle()
-//         .pipe(source('app.js'))
-//         .pipe(buffer())
-//         .pipe(gulp.dest(DEST))
-//
-//         // This will minify and rename to app.min.js
-//         .pipe(uglify())
-//         .pipe(concat('app.js'))
-//         .pipe(rename({extname: '.min.js'}))
-//         .pipe(gulp.dest(DEST));
-// });
 
 gulp.task('scripts', function() {
     return b.bundle()

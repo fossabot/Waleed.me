@@ -8,9 +8,6 @@ requireDir('./gulp-tasks');
 
 gulp.task('default',['help']);
 
-gulp.task('make', ['sass', 'scripts', 'build'], function () {
+gulp.task('make', ['sass', 'scripts', 'build']);
 
-});
-
-
-gulp.task('serve', ['make', 'run']);
+gulp.task('run', ['make','serve']);

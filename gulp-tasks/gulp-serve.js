@@ -3,7 +3,7 @@ let connect = require('gulp-connect');
 let modRewrite = require('connect-modrewrite');
 
 
-gulp.task('run',function () {
+gulp.task('serve',function () {
 
     connect.server({
         root: './app',

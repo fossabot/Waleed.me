@@ -8,11 +8,10 @@ let reload = browserSync.reload;
 
 let DEST = 'app/css';
 gulp.task('sass', function () {
-    gulp.src('src/scss/styles.scss')
+  return gulp.src('src/scss/styles.scss')
         .pipe(sass())
         .pipe(autoprefixer())
         .pipe(minifyCss())
-        .pipe(gulp.dest(DEST))
-        .pipe(livereload());
+        .pipe(gulp.dest(DEST));
 });
 
