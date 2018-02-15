@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Waleed Ahmed Development</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <script type="text/javascript" src="app.js"></script>
+
+</head>
+<body>
+<div id="body">
+    <div id="navigation">
+        <div id="navigationLeft"><a href="index.php"><img alt="Name" src="src/assets/img/kimarnett.png" id="logo"/></a></div>
+        <div id="navigationRight">
+            <ul>
+                <li><a ui-sref="home">Home</a></li>
+                <li><a ui-sref="experience">Experience</a></li>
+                <li><a ui-sref="resume">Resumé</a></li>
+                <li><a target="_blank" href="http://www.twitter.com/waleed3045">@waleed3045</a></li>
+                <li><a ui-sref="contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div ui-view id="centerPage">
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
