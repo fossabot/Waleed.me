@@ -1,39 +1,39 @@
 
-import angular from 'angular';
-import uiRouter from '@uirouter/angularjs';
+import angular from "angular";
+import uiRouter from "@uirouter/angularjs";
 
-let app = angular.module('app', [uiRouter]);
+let app = angular.module("app", [uiRouter]);
 
 
 app.config(function ($stateProvider) {
 
     let Default = {
-        name: 'default',
-        url: '/',
-        templateUrl: 'templates/home.html'
+        name: "default",
+        url: "/",
+        templateUrl: "templates/home.html"
     };
 
     let Home = {
-        name: 'home',
-        url: '',
-        templateUrl: 'templates/home.html'
+        name: "home",
+        url: "",
+        templateUrl: "templates/home.html"
     };
 
     let Resume = {
-        name: 'resume',
-        url: '/resume',
-        templateUrl: 'templates/resume.html'
+        name: "resume",
+        url: "/resume",
+        templateUrl: "templates/resume.html"
     };
     let Contact = {
-        name: 'contact',
-        url: '/contact',
-        templateUrl: 'templates/contact.html'
+        name: "contact",
+        url: "/contact",
+        templateUrl: "templates/contact.html"
     };
 
     let Experience = {
-        name: 'experience',
-        url: '/experience',
-        templateUrl: 'templates/experience.html'
+        name: "experience",
+        url: "/experience",
+        templateUrl: "templates/experience.html"
     };
 
 

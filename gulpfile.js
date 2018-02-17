@@ -1,13 +1,13 @@
 
-let gulp = require('gulp');
+let gulp = require("gulp");
 
 
-let requireDir = require('require-dir');
+let requireDir = require("require-dir");
 
-requireDir('./gulp-tasks');
+requireDir("./gulp-tasks");
 
-gulp.task('default',['help']);
+gulp.task("default",["help"]);
 
-gulp.task('make', ['sass', 'scripts', 'build']);
+gulp.task("make", ["sass", "scripts", "build"]);
 
-gulp.task('run', ['make','serve']);
+gulp.task("run", ["make","serve"]);
