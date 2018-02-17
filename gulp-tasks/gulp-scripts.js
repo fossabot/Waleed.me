@@ -21,7 +21,7 @@ let b = browserify({
 gulp.task("scripts", function() {
     return b.bundle()
         .pipe(source("app.js")) // gives streaming vinyl file object
-        .pipe(gulp.dest(DEST))
+        .pipe(gulp.dest(DEST));
         //.pipe(buffer()) // <----- convert from streaming to buffered vinyl file object
 
         // .pipe(uglify())// now gulp-uglify works

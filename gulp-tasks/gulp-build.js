@@ -10,6 +10,6 @@ gulp.task("build", function () {
         .pipe(gulp.dest("app/templates/"));
 
     gulp.src("src/assets/**")
-        .pipe(gulp.dest("app/assets/"))
+        .pipe(gulp.dest("app/assets/"));
 
 });
