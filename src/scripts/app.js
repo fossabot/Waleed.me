@@ -19,7 +19,7 @@ app.config(function ($stateProvider) {
     let Home = {
         name: "home",
         url: "",
-        templateUrl: 'home.html'
+        templateUrl: "home.html"
     };
 
     let Resume = {
