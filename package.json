@@ -4,8 +4,8 @@
   "description": "Waleed personal Website",
   "main": "index.js",
   "scripts": {
-    "start": "gulp serve",
-    "test": "gulp make"
+    "start": "./node_modules/.bin/gulp serve",
+    "test": "./node_modules/.bin/eslint src/scripts/ gulp-tasks gulpfile.js && ./node_modules/.bin/gulp make"
   },
   "author": "Waleed Ahmed",
   "license": "ISC",
@@ -26,6 +26,7 @@
     "browser-sync": "^2.23.6",
     "browserify": "^16.0.0",
     "connect-modrewrite": "^0.10.2",
+    "eslint": "^4.18.0",
     "gulp-angular-templatecache": "^2.2.0",
     "gulp-autoprefixer": "^4.1.0",
     "gulp-concat": "^2.6.1",
