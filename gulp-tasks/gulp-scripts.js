@@ -14,8 +14,7 @@ let b = browserify({
     entries:"src/scripts/app.js",
     debug: true
 }).transform(babelify.configure({
-    presets: ["es2015"],
-    sourceMap: false
+    presets: ["es2015"]
 }));
 
 
