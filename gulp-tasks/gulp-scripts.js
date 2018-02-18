@@ -7,15 +7,14 @@ let transform = require("vinyl-transform");
 let buffer = require("vinyl-buffer");
 let babelify = require("babelify");
 let source = require("vinyl-source-stream");
-let strip = require('gulp-strip-comments');
+let strip = require("gulp-strip-comments");
 
 let DEST = "app/";
 let b = browserify({
     entries:"src/scripts/app.js",
     debug: true
 }).transform(babelify.configure({
-    presets: ["es2015"],
-    sourceMap: false
+    presets: ["es2015"]
 }));
 
 

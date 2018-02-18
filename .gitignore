@@ -69,3 +69,4 @@ typings/
 app/
 package-lock.json
 /.idea/
+templates-cache.js
