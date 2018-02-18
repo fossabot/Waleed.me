@@ -7,7 +7,7 @@ let transform = require("vinyl-transform");
 let buffer = require("vinyl-buffer");
 let babelify = require("babelify");
 let source = require("vinyl-source-stream");
-let strip = require('gulp-strip-comments');
+let strip = require("gulp-strip-comments");
 
 let DEST = "app/";
 let b = browserify({
