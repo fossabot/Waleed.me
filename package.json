@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/gulp run",
-    "test": "./node_modules/.bin/eslint src/scripts/ gulp-tasks gulpfile.js && ./node_modules/.bin/gulp make"
+    "test": "./node_modules/.bin/eslint src/scripts/ gulp-tasks gulpfile.js && ./node_modules/.bin/stylelint src/scss && ./node_modules/.bin/gulp make"
   },
   "author": "Waleed Ahmed",
   "license": "ISC",
@@ -17,7 +17,8 @@
     "babelify": "^8.0.0",
     "gulp": "^3.9.1",
     "require-dir": "^1.0.0",
-    "should": "^13.2.1"
+    "should": "^13.2.1",
+    "stylelint": "^9.0.0"
   },
   "devDependencies": {
     "babel-plugin-transform-proto-to-assign": "^6.26.0",
