@@ -8,14 +8,15 @@ let buffer = require("vinyl-buffer");
 let babelify = require("babelify");
 let source = require("vinyl-source-stream");
 let strip = require("gulp-strip-comments");
+let watchify = require("watchify");
 
 let DEST = "app/";
-let b = browserify({
+let b = watchify(browserify({
     entries:"src/scripts/app.js",
     debug: true
 }).transform(babelify.configure({
     presets: ["es2015"]
-}));
+})));
 
 
 gulp.task("scripts", function() {
