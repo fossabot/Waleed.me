@@ -28,7 +28,7 @@
     "connect-modrewrite": "^0.10.2",
     "eslint": "^4.18.0",
     "gulp-angular-templatecache": "^2.2.0",
-    "gulp-autoprefixer": "^4.1.0",
+    "gulp-autoprefixer": "^5.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.4.0",
     "gulp-livereload": "^3.8.1",
