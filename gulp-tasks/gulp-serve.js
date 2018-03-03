@@ -18,6 +18,6 @@ gulp.task("serve",function () {
     gulp.watch("src/scripts/**/*.js", ["scripts"], reload());
     gulp.watch("src/scss/**/*.{sass,scss}", ["sass"], reload());
     gulp.watch("src/index.html", ["build"], reload());
-    gulp.watch("src/templates/**/*.html", reload());
+    gulp.watch("src/templates/**/*.html",["html-templates","scripts"], reload());
 
 });
