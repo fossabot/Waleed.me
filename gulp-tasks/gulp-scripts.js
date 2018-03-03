@@ -11,12 +11,12 @@ let strip = require("gulp-strip-comments");
 let watchify = require("watchify");
 
 let DEST = "app/";
-let b = watchify(browserify({
+let b = browserify({
     entries:"src/scripts/app.js",
     debug: true
 }).transform(babelify.configure({
     presets: ["es2015"]
-})));
+}));
 
 
 gulp.task("scripts", function() {
