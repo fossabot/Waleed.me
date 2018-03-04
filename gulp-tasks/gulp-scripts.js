@@ -24,11 +24,11 @@ gulp.task("scripts", function() {
         .pipe(source("app.js")) // gives streaming vinyl file object
         .pipe(buffer())
         .pipe(strip())
-        .pipe(gulp.dest(DEST));
+        // .pipe(gulp.dest(DEST))
         //.pipe(buffer()) // <----- convert from streaming to buffered vinyl file object
 
-        // .pipe(uglify())// now gulp-uglify works
-        // .pipe(rename({extname: ".min.js"}))
-        // .pipe(gulp.dest(DEST));
+        .pipe(uglify())// now gulp-uglify works
+        .pipe(rename({extname: ".min.js"}))
+        .pipe(gulp.dest(DEST));
 });
 
