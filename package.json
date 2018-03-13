@@ -18,7 +18,7 @@
     "gulp": "^3.9.1",
     "require-dir": "^1.0.0",
     "should": "^13.2.1",
-    "stylelint": "^9.0.0"
+    "stylelint": "^9.1.2"
   },
   "devDependencies": {
     "babel-plugin-transform-proto-to-assign": "^6.26.0",
