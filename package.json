@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/gulp run",
+    "build": "webpack",
     "test": "./node_modules/.bin/eslint src/scripts/ gulp-tasks gulpfile.js && ./node_modules/.bin/stylelint src/scss && ./node_modules/.bin/gulp test"
   },
   "author": "Waleed Ahmed",
@@ -26,7 +27,11 @@
     "browser-sync": "^2.23.6",
     "browserify": "^16.1.0",
     "connect-modrewrite": "^0.10.2",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.10",
     "eslint": "^4.18.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
     "gulp-angular-templatecache": "^2.2.0",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-concat": "^2.6.1",
@@ -43,13 +48,22 @@
     "gulp-strip-comments": "^2.5.2",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^5.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.0.6",
+    "mini-css-extract-plugin": "^0.2.0",
+    "ng-cache-loader": "^0.0.26",
     "pump": "^3.0.0",
     "run-sequence": "^2.2.1",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
     "uglify-js": "^3.3.11",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",
     "vinyl-transform": "^1.0.0",
     "watchify": "^3.10.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1",
     "wiredep": "^4.0.0"
   }
 }

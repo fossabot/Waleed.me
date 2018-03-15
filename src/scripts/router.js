@@ -18,14 +18,14 @@ function getStates() {
             state : "default",
             config: {
                 url: "",
-                templateUrl: "home.html"
+                template: require("../templates/home.html")
             }
         },
         {
             state: "home",
             config: {
                 url: "/",
-                templateUrl: "home.html"
+                template: require("../templates/home.html")
             }
 
         },
@@ -33,21 +33,21 @@ function getStates() {
             state: "resume",
             config:{
                 url:"/resume",
-                templateUrl:"resume.html"
+                template: require("../templates/resume.html")
             }
         },
         {
             state: "experience",
             config:{
                 url:"/experience",
-                templateUrl:"experience.html"
+                template: require("../templates/experience.html")
             }
         },
         {
             state: "contact",
             config:{
                 url:"/contact",
-                templateUrl:"contact.html"
+                template: require("../templates/contact.html")
             }
         }
     ];
