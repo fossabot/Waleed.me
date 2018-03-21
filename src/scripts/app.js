@@ -1,9 +1,9 @@
 
+import "babel-polyfill";
 import angular from "angular";
 import uiRouter from "@uirouter/angularjs";
-import '../scss/styles.scss'
 let router = require("./router");
-
+import "contents-loader! ../scss"
 
 angular.module("app", [uiRouter])
     .config(router);
