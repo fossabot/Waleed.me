@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/gulp run",
-    "build": "webpack -p",
+    "build": "webpack",
     "live": "webpack-dev-server",
-    "test": "./node_modules/.bin/eslint src/scripts/ webpack.config.js && ./node_modules/.bin/stylelint src/scss && ./node_modules/.bin/yarn build"
+    "test":
+      "./node_modules/.bin/eslint src/scripts/ webpack.config.js && ./node_modules/.bin/stylelint src/scss && yarn run build"
   },
   "author": "Waleed Ahmed",
   "license": "ISC",
@@ -33,11 +34,11 @@
     "mini-css-extract-plugin": "^0.2.0",
     "ng-cache-loader": "^0.0.26",
     "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.7",
-    "scss-loader": "^0.0.1",
+    "prettier": "1.11.1",
     "style-loader": "^0.20.3",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.12",
-    "webpack-dev-server": "^3.1.1"
+    "webpack-dev-server": "^3.1.1",
+    "webpack-stylish": "^0.1.6"
   }
 }
