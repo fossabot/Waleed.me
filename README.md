@@ -1,5 +1,4 @@
-[![NPM Version](https://img.shields.io/badge/npm-5.6.0-orange.svg)][![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwaleedahmed3045%2FWaleed.me.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwaleedahmed3045%2FWaleed.me?ref=badge_shield)
-()
+![NPM Version](https://img.shields.io/badge/npm-5.6.0-orange.svg) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwaleedahmed3045%2FWaleed.me.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwaleedahmed3045%2FWaleed.me?ref=badge_shield)
 [![GitHub issues](https://img.shields.io/github/issues/waleedahmed3045/Waleed.me.svg?style=flat-square)](https://github.com/waleedahmed3045/Waleed.me/issues)
 [![Build Status](https://travis-ci.org/waleedahmed3045/Waleed.me.svg?branch=waleedme%2Fdevelop)](https://travis-ci.org/waleedahmed3045/Waleed.me)
 [![Greenkeeper badge](https://badges.greenkeeper.io/waleedahmed3045/Waleed.me.svg)](https://greenkeeper.io/)
